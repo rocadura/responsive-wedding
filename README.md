@@ -12,7 +12,7 @@ TODOs -Future work:\
 PHP-to-email connection to send the invitations automatically.\
 Playlist suggestion.\
 Bugfix.\
-Backend improvements.\
+Backend improvements.
 
 Follow these steps for a fast local installation of the website:
 
@@ -22,22 +22,21 @@ Follow these steps for a fast local installation of the website:
 
 2. After installing run XAMPP -> Manage Servers -> Start All.\
    If SQL Server does not start you might need to go to a terminal an type:\
-   sudo service mysql stop
-
-   Go to your local installation path. For Linux: /opt/lampp/htdocs/
+   ,,sudo service mysql stop"\
+   Go to your local installation path. For Linux: /opt/lampp/htdocs/ \
    The file 'index.php' is the main landing in your localhost. As default
    it points to the dashboard application, later you can change it to point to your site.
 
-3. Grant group permissions to use /htdocs/ folder.
-   Go to a terminal and type:
-   sudo chmod g+rwx /opt/lampp/htdocs/
+3. Grant group permissions to use /htdocs/ folder.\
+   Go to a terminal and type:\
+   ,,sudo chmod g+rwx /opt/lampp/htdocs/"
 
 4. Use the makefile to create the new /html/ directory and copy all files
    on the localhost. e.g. /opt/lampp/html -You may need to manually update line 26 of the Makefile-
-   In a terminal go to the place where you downloaded the project and type:
+   In a terminal go to the place where you downloaded the project and type:\
    make clean && make dirs && make
 
-5. Import your databse using the interface ,,Import / Export Database on XAMPP phpMyAdmin"
+5. Import your databse using the interface ,,Import / Export Database on XAMPP phpMyAdmin"\
    Import using the provided file: db_dump.sql
 
 6. Open your web browser and type 'http://localhost/html/'
