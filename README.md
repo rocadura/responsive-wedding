@@ -8,11 +8,11 @@ There is also a small makefile to speed up the Sync process.
 
 For testing it can be deployed locally using XAMPP or similar.
 
-TODOs -Future work:
-PHP-to-email connection to send the invitations automatically
-Playlist suggestion
-Bugfix
-Backendimprovements.
+TODOs -Future work:\
+PHP-to-email connection to send the invitations automatically.\
+Playlist suggestion.\
+Bugfix.\
+Backend improvements.\
 
 Follow these steps for a fast local installation of the website:
 
@@ -20,9 +20,10 @@ Follow these steps for a fast local installation of the website:
    Download and install in your computer.
    https://www.apachefriends.org/de/download.html
 
-2. After installing run XAMPP -> Manage Servers -> Start All.
-   If SQL Server does not start you might need to go to a terminal an type:
+2. After installing run XAMPP -> Manage Servers -> Start All.\
+   If SQL Server does not start you might need to go to a terminal an type:\
    sudo service mysql stop
+
    Go to your local installation path. For Linux: /opt/lampp/htdocs/
    The file 'index.php' is the main landing in your localhost. As default
    it points to the dashboard application, later you can change it to point to your site.
