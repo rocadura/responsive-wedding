@@ -3,7 +3,7 @@ mgdev/responsive-wedding
 
 The main differences are the PHP and SQL development for the guest management system.
 It allows to register your guest, let them retrieve their invitation and confirm
-the attendace online. Also select their prefered food.
+the attendance online. Also select their preferrred food.
 There is also a small makefile to speed up the Sync process.
 
 For testing it can be deployed locally using XAMPP or similar.
@@ -14,7 +14,7 @@ Playlist suggestion
 Bugfix
 Backendimprovements.
 
-Follow these steps for a fast local instalation of the website:
+Follow these steps for a fast local installation of the website:
 
 1. I decided to use the XAMPP package to host locally.
    Download and install in your computer.
@@ -25,14 +25,14 @@ Follow these steps for a fast local instalation of the website:
    sudo service mysql stop
    Go to your local installation path. For Linux: /opt/lampp/htdocs/
    The file 'index.php' is the main landing in your localhost. As default
-   it points to the dashboard application, later you can change it to point your site.
+   it points to the dashboard application, later you can change it to point to your site.
 
 3. Grant group permissions to use /htdocs/ folder.
    Go to a terminal and type:
    sudo chmod g+rwx /opt/lampp/htdocs/
 
 4. Use the makefile to create the new /html/ directory and copy all files
-   in the localhost. e.g. /opt/lampp/html -You may need to manually update line 26 of the Makefile-
+   on the localhost. e.g. /opt/lampp/html -You may need to manually update line 26 of the Makefile-
    In a terminal go to the place where you downloaded the project and type:
    make clean && make dirs && make
 
@@ -43,8 +43,8 @@ Follow these steps for a fast local instalation of the website:
 
 7. Manage your invitations typing 'http://localhost/html/php/menu.php'
 
-I guess noone is going to reuse this code and therefore I will not
-spend much efort in a detailed documentation. In case yes, you can
+I guess no one is going to reuse this code and therefore I will not
+spend much effort in a detailed documentation. In such a case, you can
 always drop an email!
 
 ![Preview](https://github.com/rocadura/responsive-wedding/blob/master/Prev_1.png?raw=true)
