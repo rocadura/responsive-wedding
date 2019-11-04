@@ -1,3 +1,63 @@
+This is just another fork from the repository:
+mgdev/responsive-wedding
+
+The main differences are the PHP and SQL development for the guest management system.
+It allows to register your guest, let them retrieve their invitation and confirm
+the attendace online. Also select their prefered food.
+There is also a small makefile to speed up the Sync process.
+
+For testing it can be deployed locally using XAMPP or similar.
+
+TODOs -Future work:
+PHP-to-email connection to send the invitations automatically
+Playlist suggestion
+Bugfix
+Backendimprovements.
+
+Follow these steps for a fast local instalation of the website:
+
+1. I decided to use the XAMPP package to host locally.
+   Download and install in your computer.
+   https://www.apachefriends.org/de/download.html
+
+2. After installing run XAMPP -> Manage Servers -> Start All.
+   If SQL Server does not start you might need to go to a terminal an type:
+   sudo service mysql stop
+   Go to your local installation path. For Linux: /opt/lampp/htdocs/
+   The file 'index.php' is the main landing in your localhost. As default
+   it points to the dashboard application, later you can change it to point your site.
+
+3. Grant group permissions to use /htdocs/ folder.
+   Go to a terminal and type:
+   sudo chmod g+rwx /opt/lampp/htdocs/
+
+4. Use the makefile to create the new /html/ directory and copy all files
+   in the localhost. e.g. /opt/lampp/html -You may need to manually update line 26 of the Makefile-
+   In a terminal go to the place where you downloaded the project and type:
+   make clean && make dirs && make
+
+5. Import your databse using the interface ,,Import / Export Database on XAMPP phpMyAdmin"
+   Import using the provided file: db_dump.sql
+
+6. Open your web browser and type 'http://localhost/html/'
+
+7. Manage your invitations typing 'http://localhost/html/php/menu.php'
+
+I guess noone is going to reuse this code and therefore I will not
+spend much efort in a detailed documentation. In case yes, you can
+always drop an email!
+
+![Preview](https://github.com/rocadura/responsive-wedding/blob/master/Prev_1.png?raw=true)
+![Preview](https://github.com/rocadura/responsive-wedding/blob/master/Prev_2.png?raw=true)
+![Preview](https://github.com/rocadura/responsive-wedding/blob/master/Prev_3.png?raw=true)
+![Preview](https://github.com/rocadura/responsive-wedding/blob/master/Prev_4.png?raw=true)
+![Preview](https://github.com/rocadura/responsive-wedding/blob/master/Prev_5.png?raw=true)
+![Preview](https://github.com/rocadura/responsive-wedding/blob/master/Prev_6.png?raw=true)
+![Preview](https://github.com/rocadura/responsive-wedding/blob/master/Prev_7.png?raw=true)
+![Preview](https://github.com/rocadura/responsive-wedding/blob/master/Prev_8.png?raw=true)
+
+
+
 responsive-wedding
 ------------------
 

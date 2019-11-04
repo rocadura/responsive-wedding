@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/functions.js"></script>
+    <link rel="stylesheet" href="../css/main-1.6.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/mediaQ_320px.css">
+    <link rel="stylesheet" href="../css/mediaQ_360px.css">
+    <link rel="stylesheet" href="../css/mediaQ_768px.css">
+    <link rel="stylesheet" href="../css/mediaQ_900px.css">
+    <link rel="stylesheet" href="../css/mediaQ_1300px.css">
+    <link rel="stylesheet" href="../css/angels.css">
+  </head>
+
+  <body>
+
+    <div id="bg-image">
+      <img src="../img/fondo1_1.jpg" alt="bg" />
+    </div>
+
+    <section class="invitation">
+      <img src="../img/ilu_inv1.png"  class="invhead rotate180" alt="cactus"/>
+
+      <div class="column full">
+        <p class="guests">
+          Thanks for replying!</br>
+        </p>
+        <?php echo guestConfirmation($uniquekey) ?>
+
+        <div class="column full">
+          <div class="hr-b invdiv"></div>
+          <p class="guests">Change of plans? doesn't matter! Just retrieve again your invitation and update the information before DD of MM YYYY .</br>
+            See you soon!</br>
+          </br>
+          Go to <a href="../index.php">Homepage</a></p>
+          </div><!--end column-->
+      </div>
+
+      <img src="../img/ilu_inv1.png"  class="invfoot" alt="cactus"/>
+
+    </section>
+
+  </body>
+</html>

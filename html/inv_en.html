@@ -1,0 +1,139 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/functions.js"></script>
+    <link rel="stylesheet" href="../css/main-1.6.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/mediaQ_320px.css">
+    <link rel="stylesheet" href="../css/mediaQ_360px.css">
+    <link rel="stylesheet" href="../css/mediaQ_768px.css">
+    <link rel="stylesheet" href="../css/mediaQ_900px.css">
+    <link rel="stylesheet" href="../css/mediaQ_1300px.css">
+    <link rel="stylesheet" href="../css/angels.css">
+  </head>
+
+  <body>
+
+    <div id="bg-image">
+      <img src="../img/fondo1_1.jpg" alt="bg" />
+    </div>
+
+    <section class="invitation">
+      <img src="../img/ilu_inv1.png"  class="invhead rotate180" alt="cactus"/>
+
+      <div class="column fulll">
+        <?php if ($found>0) { ?>
+
+        <div class="column left">
+          <p class="parents">
+            Mother of bride<br/>
+            Father of bride<br/>
+          </p>
+        </div>
+
+        <div class="column right">
+          <p class="parents">
+            Mother of groom|<span class="icon-angelitos"></span><br/>
+            Father of groom |<span class="icon-angelitos"></span><br/>
+          </p>
+        </div>
+      </div><!--end column-->
+
+        <div class="column full">
+          <div class="hr-b invdiv"></div>
+        </div><!--end column-->
+
+        <div class="column full">
+          <p class="parents">
+          Invite you to the wedding of
+        </p>
+        </div><!--end column-->
+
+        <div class="column full">
+          <p  class="parents couple">
+            <img src="../img/ilu_cactus.png" alt="cactus" class="cactusmidinv" style="left:0px;"/>
+            Bride & Groom
+            <img src="../img/ilu_cactus.png" alt="cactus" class="cactusmidinv" style="right:0px;"/>
+          </p>
+        </div><!--end column-->
+
+
+        <div class="column full">
+          <p class ="parents couple date">
+            01.01.2222
+          </p>
+        </div><!--end column-->
+
+        <div class="column full">
+          <div class="hr-b invdiv"></div>
+        </div><!--end column-->
+
+        <div class="column full">
+          <p class="parents" style="line-height: 100%;">
+            Where, Place name,<br/>
+            Place address, city,<br/>
+            Country.<br/>
+            Time 00:00
+          </p>
+        </div><!--end column-->
+
+        <div class="column full">
+          <div class="hr-b invdiv"></div>
+        </div><!--end column-->
+
+        <div class="column full">
+          <p class="parents" style="line-height: 100%;">
+            Dress code<br/>
+            Whatever you like to be<br/></p>
+        </div><!--end column-->
+
+        <div class="column full">
+          <p class="guests" style="line-height: 100%; display:inline-block; text-align: center; ">
+            Men: Suit<br />
+            Women: Long dress<br/>
+            Sneakers
+          </p>
+        </div><!--end column-->
+
+        <div class="column full">
+          <div class="hr-b invdiv"></div>
+        </div><!--end column-->
+
+
+        <div class="column full">
+          <!-- ====== Form Accept Content ======== -->
+          <form id="invitation_form" class="form" action="../php/conf_en.php" method="post">
+            <?php echo confirmationForm_en($uniquekey ); ?>
+            <input type="hidden" name="uniquekey" value="<?php echo $uniquekey ?>" />
+            <div class="column full">
+              <div class="hr-b invdiv"></div>
+            </div><!--end column-->
+
+            <div class="form">
+              <input class="button" type="submit" value="Confirm">
+            </div>
+          </form>
+          <?php } ?>
+
+          <!-- ====== Display if not found!?  ======== -->
+
+          <?php if ($found<=0) { ?>
+          <div class="column full">
+          <p class="parents">
+            Oooopss....not found! Write us an email please... it seems that something went wrong!
+          </p>
+          </div><!--end column-->
+          <?php } ?>
+
+        </div>
+
+        <img src="../img/ilu_inv1.png"  class="invfoot" alt="cactus"/>
+
+    </section>
+
+    <script language="javascript">confirmedGuests();</script>
+
+  </body>
+</html>

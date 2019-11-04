@@ -1,0 +1,153 @@
+@media only screen and (min-width: 1300px) {
+
+     /* CONTAINERS */
+
+    nav a {
+        font-size: 250%;
+    }
+
+    #introtext {
+        margin: 10% 0px 0px 0px;
+        width:70%;
+        display:inline-block;
+        border: 0px solid green;
+    }
+
+    /* Bride & Groom */
+    #introtext .head-bride {
+        font-size: 5em;
+    }
+
+    /* Date */
+    #introtext .date {
+        font-size: 2.5em;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    section{
+        width:55%;
+    }
+
+    section h1 {
+        font-size: 4.0em;
+    }
+
+    section h2 {
+        padding: 0 20px;
+        font-size: 1.8em;
+        margin-bottom:0px;
+    }
+
+    section h3 {
+        padding: 0 20px;
+        font-size: 1.8em;
+        margin-bottom:0px;
+    }
+
+    .column.full {
+        clear: both;
+        width: 100%;
+    }
+
+    .column p {
+        font-size: 1.3em;
+        /* line-height: 145%; */
+        padding: 0 20px;
+        margin-top:10px;
+    }
+
+    .foto {
+        height: 260px;
+        width: 180px;
+    }
+
+    .foto1 {
+        height: 180px;
+        width: 300px;
+    }
+
+    .foto2 {
+        height: 180px;
+        width: 180px;
+    }
+
+    .garg{
+        height: 150px;
+        width: 150px;
+    }
+
+    .container-garg{
+        width: auto;
+        margin: 0px 0% 0% 12px;
+    }
+
+    #gmap iframe {
+        width: 350px;
+        height: 350px;
+    }
+
+    /* ------------- */
+    /* SAVE THE DATE */
+    /* ------------- */
+
+    .savedate{
+        width:70%;
+        height: 95%;
+        margin: 2% 10%;
+        border-radius: 1px;
+    }
+
+    .savedateimg{
+        margin-top: 17.5%;
+        width:55%;
+    }
+
+    /* INVITATION */
+
+    .invitation{
+        width: 760px;
+        height: auto;
+        margin-top:2%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .invhead{
+        width: 55%;
+    }
+
+    .invfoot{
+        width: 55%;
+    }
+
+    p.parents{
+        font-size:1.5em;
+    }
+
+    p.parents.couple{
+        font-size:3.5em;
+    }
+
+    p.parents.couple.date{
+        font-size:1.8em;
+    }
+
+    p.guests{
+        font-size:1.3em;
+    }
+
+    .cactusmidinv{
+        width: 10%;
+    }
+
+    .hr-b.invdiv {
+        width:10%;
+        height:0px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+}

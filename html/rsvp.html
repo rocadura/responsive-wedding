@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/functions.js"></script>
+    <link rel="stylesheet" href="../css/normalize.min.css">
+    <link rel="stylesheet" href="../css/main-1.6.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/media-print.css">
+    <link rel="stylesheet" href="../css/gmaps.css">
+    <link rel="stylesheet" href="../css/mediaQ_320px.css">
+    <link rel="stylesheet" href="../css/mediaQ_360px.css">
+    <link rel="stylesheet" href="../css/mediaQ_768px.css">
+    <link rel="stylesheet" href="../css/mediaQ_900px.css">
+    <link rel="stylesheet" href="../css/mediaQ_1140px.css">
+  </head>
+
+
+  <body>
+    <div id="bg-image">
+      <img src="../img/fondo1_1.jpg" alt="bg" />
+    </div>
+
+    <section class="savedate">
+
+      <div class="column full">
+        <a href="../../"><img class="savedateimg" src="../img/save_the_date.png"  alt="save the date"/></a>
+        <div style="height: 7%;"></div>
+
+        <div class="form">
+          <form action="../php/invited.php?uniquekey=$uniquekey" onsubmit="../php/invited.php?uniquekey=$uniquekey">
+            <p>Invitation code:<br> </p>
+            <p><input type="text" name="uniquekey" maxlength="8" size="6" class="intext"><br> </p>
+            <input type="submit" value="retrieve" class="button">
+          </form>
+        </div>
+
+        <div style="height: 10%;"></div>
+
+      </div>
+
+    </section>
+
+  </body>
+</html>

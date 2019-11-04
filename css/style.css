@@ -1,0 +1,58 @@
+body {
+    background-color: #c0c0c0;
+}
+
+#layout {
+	padding: 0;
+	height: 100%;
+}
+
+/* End of Added by rocadura */
+
+
+.right_content {
+	background: url(../img/cactus1.jpg) no-repeat top left fixed;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	background-color: #c0c0c0;
+}
+
+.right_content .hosts {
+	font-family: 'Dancing Script', cursive;
+	font-size: 100px;
+	color: #000000;
+	margin: 10px 60px;
+}
+.left_content {
+	color: #000;
+}
+
+
+#invitation div{
+	font-family: 'Sacramento', cursive;
+	font-size: 30px;
+	line-height: 100%;
+	background-color: transparent;
+	text-align: center;
+	text-shadow: 4px 4px 4px #aaa;
+}
+#invitation div p {
+	margin: 4px 0px;
+ }
+#invitation .hosts{
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	margin: 10px 0px;
+}
+ #invitation .guests {
+	margin: 10px 0px;
+ }
+#invitation_form label{
+	font-family: 'Sacramento', cursive;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 4px 4px 4px #aaa;
+	margin: 20px 0px;
+}

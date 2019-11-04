@@ -1,0 +1,10 @@
+<?php
+include('../../htdocs/html/php/functions.php');
+include('../../htdocs/html/html/head.html');
+include('../../htdocs/html/html/body.html');
+include('../../htdocs/html/html/section1.html');
+include('../../htdocs/html/html/section2.html');
+include('../../htdocs/html/html/section3.html');
+include('../../htdocs/html/html/section4.html');
+include('../../htdocs/html/html/foot.html');
+?>

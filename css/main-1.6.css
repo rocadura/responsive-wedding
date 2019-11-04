@@ -1,0 +1,304 @@
+/* CONTAINERS */
+
+.main-container {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:auto;
+    border: 0px solid red;
+}
+
+.header-container.sticky{
+    z-index:10;
+}
+
+nav {
+    z-index: 42;
+}
+
+nav ul {
+    font-family: "eurof55", Helvetica, Arial;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0;
+    border: 0px solid blue;
+  }
+
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333333; /* Text Color */
+    white-space: nowrap;
+    outline: none;
+    background: rgba(255,211,025); /* Fallback for web browsers that doesn't support RGBa */
+    background: rgba(255,211,025,0.5); /* light yellow */
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav li a{
+    display:inline-block;
+    line-height:0%;
+}
+
+
+nav li a:hover {
+    color: green;
+    background: #b1bf92;
+    text-decoration: none;
+    outline: none;
+}
+nav li a.selected {
+    background:  #829F53;
+    background: rgba(162, 185, 100);
+    text-decoration: none;
+    outline: none;
+}
+
+#introtext .head-bride {
+    font-family: "GillSansStd", "BristleBrush1", Helvetica, Arial;
+    line-height: 100%;
+    color: rgb(105,105,105);
+}
+
+#introtext .date {
+    margin-top: 10px;
+    font-family: "eurof55", Helvetica, Arial;
+    color: rgb(105,105,105);
+}
+
+body {
+    /* font: 16px/26px Helvetica, Helvetica Neue, Arial; */
+    font-family: "eurof55", Helvetica, Arial;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+#bg-image {
+    position: fixed;
+    z-index:-1;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#bg-image2 {
+    position: fixed;
+    z-index:-1;
+    top: 0%;
+    left: 0%;
+    width: auto;
+    height: auto;
+}
+
+
+
+#bg-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    padding-left: 5%;
+    padding-right:5%;
+    padding-bottom:2%;
+    margin: 3% 0px 0px; 0px;
+    text-align: justify;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: 0px solid green;
+    background-color: black;
+    color: black;                /*text color*/
+    background: rgb(241,222,222);     /* Fallback  */
+    background: rgba(241,222,222, 0.40);     /* Light white  */
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.savedate{
+    background:rgba(255,255,255, 0.80);
+    text-align: center;
+}
+
+section h1 {
+    font-family: "eurof55", Helvetica, Arial;
+    font-weight: normal;
+}
+section h2 {
+    font-family: "eurof55", Helvetica, Arial;
+    font-weight: normal;
+}
+
+section h3 {
+    font-family: "GillSansStd", Helvetica, Arial;
+    font-weight: normal;
+}
+
+.column {
+    float: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.column p {
+    text-align:justify;
+    font-size: 1em;
+    line-height: 145%;
+    padding: 0;
+}
+
+.form {
+    z-index:2;
+}
+
+.form p {
+    font-size: 1em;
+    text-align:center;
+    line-height: 145%;
+    padding: 0;
+    color: black;
+}
+
+.hr-b {
+    margin: 20px 5px 20px 5px; /* top right bottom left */
+    width: 97%;
+    border-bottom:#1e1e1e solid 1px;
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.foto {
+    background-color: black;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 0px solid #090909;
+}
+
+.bride{
+    float: right;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.groom{
+    float:left;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.foto1 {
+    background-color: black;
+    border: 0px solid #090909;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.foto2 {
+    background-color: black;
+    border: 0px solid #090909;
+    border-radius: 50%;
+}
+
+.button{
+    color: black;
+    font-family:eurof55;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/* INVITATION */
+
+.invitation{
+    background:rgba(255,255,255, 0.80);
+    text-align: center;
+    border-radius: 1px;
+}
+
+.invhead{
+    height:auto;
+    position:relative;
+    top:0px;
+    margin-top:0px;
+}
+
+.invfoot{
+    height:auto;
+    position:relative;
+    bottom:0px;
+    margin-bottom:0px;
+}
+
+.invmid{
+    height:auto;
+    position:relative;
+}
+
+
+    /* color: #595F23; /\* green 1 *\/ */
+    /* color: #829F53; /\* green 2*\/ */
+    /* color: #A2B964; /\* green 3*\/ */
+    /* color: #5F1E02; /\* red-orange *\/ */
+    /* color: #E15417; /\* orange *\/ */
+    /* color: #FCF141; /\* yellow *\/ */
+
+    /* background: #595F23; /\* green 1 *\/ */
+    /* background: #829F53; /\* green 2*\/ */
+    /* background: #A2B964; /\* green 3*\/ */
+    /* background: #5F1E02; /\* red-orange *\/ */
+    /* background: #E15417; /\* orange *\/ */
+    /* background: #FCF141; /\* yellow *\/ */

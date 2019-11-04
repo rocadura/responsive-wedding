@@ -1,0 +1,84 @@
+@media only screen and (min-width: 360px) {
+
+    /* #bg-image2{ */
+    /*     display:none; */
+    /* } */
+
+    nav a {
+        padding: 3% 0% 2% 0%;
+        font-size: 150%;
+    }
+
+    /* Bride & Groom */
+    #introtext .head-bride {
+    font-size: 3.7em;
+    }
+
+    #introtext .date {
+        font-size: 2em;
+    }
+
+    section h1 {
+        font-size: 2.5em;
+    }
+    section h2 {
+        font-size: 1.7em;
+    }
+
+    .column p {
+        font-size: 1.3em;
+    }
+
+    #gmap iframe {
+        height: 400px;
+    }
+
+    .foto {
+    height: 250px;
+    width: 160px;
+    }
+
+    .foto1 {
+        height: 180px;
+        width: 270px;
+    }
+
+    .foto2 {
+        height: 180px;
+        width: 180px;
+    }
+
+    .garg{
+        position:relative;
+        floar:center;
+        }
+
+    .container-garg{
+        width: 90px;
+        margin: 0px 0% 0% 3%;
+    }
+
+    /* SAVE THE DATE */
+
+    .button{
+        font-size:0.8em;
+    }
+
+    /* INVITATION */
+
+    p.parents{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size:0.8em;
+    }
+
+    p.guests{
+        font-size:0.8em;
+    }
+
+    .hr-b.invdiv {
+        margin-top: 4px;
+        margin-bottom: 2px;
+    }
+
+}

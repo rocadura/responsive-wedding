@@ -1,0 +1,221 @@
+/* =============================================================================
+   FONTS
+   ========================================================================== */
+
+
+@font-face {
+    font-family: 'icomoon'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/icomoon.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'GillSansStd'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/GillSansStd.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Baskerville'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/Baskerville.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Gothic1'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/Gothic1.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Antipasto1'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/Antipasto1.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Antipasto2'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/Antipasto2.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Antipasto3'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/Antipasto3.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Champagne1'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/Champagne1.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Champagne2'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/Champagne2.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Champagne3'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/Champagne3.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Champagne4'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/Champagne4.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'coffeTea'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/coffeTea.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Dominique'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/Dominique.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'eurof35'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/eurof35.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'eurof36'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/eurof36.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'eurof55'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/eurof55.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'eurof56'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/eurof56.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'eurof75'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/eurof75.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'eurof76'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/eurof76.ttf'); /*URL to font*/
+}
+
+
+@font-face {
+    font-family: 'GeorgiaBelle1'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/GeorgiaBelle1.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'GeorgiaBelle2'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/GeorgiaBelle2.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'GeorgiaBelle3'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/GeorgiaBelle3.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'KeepScroll1'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/KeepScroll1.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Mayton'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/Mayton.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'BristleBrush1'; /*a name to be used later*/
+    src: url('http://www.laurayjuan.co/fonts/BristleBrush1.ttf'); /*URL to font*/
+}
+
+
+
+
+@font-face {
+    font-family: 'futura_ltbold';
+    src: url('futuralt-bold-webfont.eot');
+    src: url('futuralt-bold-webfont.eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
+         url('futuralt-bold-webfont.woff') format('woff'),  /* Modern Browsers */
+         url('futuralt-bold-webfont.ttf') format('truetype'),  /* Safari, Android, iOS */
+         url('futuralt-bold-webfont.svg#futura_ltbold') format('svg');  /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ltbook';
+    src: url('futuralt-book-webfont.eot');
+    src: url('futuralt-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('futuralt-book-webfont.woff') format('woff'),
+         url('futuralt-book-webfont.ttf') format('truetype'),
+         url('futuralt-book-webfont.svg#futura_ltbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ltregular';
+    src: url('futuralt-webfont.eot');
+    src: url('futuralt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('futuralt-webfont.woff') format('woff'),
+         url('futuralt-webfont.ttf') format('truetype'),
+         url('futuralt-webfont.svg#futura_ltregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-otf-webfont.eot');
+    src: url('alexbrush-regular-otf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('alexbrush-regular-otf-webfont.woff') format('woff'),
+         url('alexbrush-regular-otf-webfont.ttf') format('truetype'),
+         url('alexbrush-regular-otf-webfont.svg#alex_brushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'great_vibesregular';
+    src: url('greatvibes-regular-webfont.eot');
+    src: url('greatvibes-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('greatvibes-regular-webfont.woff') format('woff'),
+         url('greatvibes-regular-webfont.ttf') format('truetype'),
+         url('greatvibes-regular-webfont.svg#great_vibesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scriptina_proregular';
+    src: url('scriptina_pro-webfont.eot');
+    src: url('scriptina_pro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('scriptina_pro-webfont.woff') format('woff'),
+         url('scriptina_pro-webfont.ttf') format('truetype'),
+         url('scriptina_pro-webfont.svg#scriptina_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+        font-family: 'EdwardianScrAltITCTT';
+        src: url('edwasai.eot');
+        src: url('edwasai.eot?#iefix') format('embedded-opentype'),
+                 url('edwasai.woff') format('woff'),
+                 url('edwasai.ttf') format('truetype'),
+                 url('edwasai.svg#edwasai') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'EdwardianScrAltITCTTBold';
+        src: url('edwasaib.eot');
+        src: url('edwasaib.eot?#iefix') format('embedded-opentype'),
+                 url('edwasaib.woff') format('woff'),
+                 url('edwasaib.ttf') format('truetype'),
+                 url('edwasaib.svg#edwasaib') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
